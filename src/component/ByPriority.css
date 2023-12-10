@@ -1,0 +1,38 @@
+/* ByStatus.css */
+
+.byPriorityGrid {
+  margin-top: 200px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px; /* Adjust the gap as needed */
+}
+
+.columnHeading {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #f0f0f0; /* Adjust the background color as needed */
+}
+
+.colmhead {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.mainname {
+  margin-right: 10px;
+}
+.mainlen {
+  font-size: small;
+  font-weight: 600;
+  color: darkgray;
+}
+
+.colmsym {
+  justify-content: space-between;
+  width: 40px;
+  align-items: center;
+  display: flex;
+}
